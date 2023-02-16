@@ -1,0 +1,55 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    transition: top 0.3s;
+  }
+  
+  .navbar:not(.navbar-dark) {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .navbar.scrolled {
+    top: -56px;
+  }
+  .navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .scrolled {
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+  }
+
+  /* Page Heading */
+  .page-heading {
+    margin: 50px 0 20px;
+    text-align: center;
+  }
+
+  .page-heading h1 {
+    font-size: 48px;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  /* Tall Section */
+  .tall-section {
+    height: 1000px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 20px 0;
+  }
+
+  footer p {
+    margin: 0;
+    text-align: center;
+  }
